@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, skyblue, royalblue);
+  background-size: cover;
+  position: fixed;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+
+button {
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+hr {
+  width: 60%;
+  height: 0px;
+  border: none;
+  border-top: 1px solid #20202050;
+}
+
+table {
+  width: 40vw;
+  height: 50vh; 
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 0 10px;
+  width: 50%;
+  text-align: center;
+}
